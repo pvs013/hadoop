@@ -39,7 +39,7 @@ import java.util.concurrent.*;
  * Multithreaded implementation for {@link MapRunnable}.
  * <p>
  * It can be used instead of the default implementation,
- * of {@link org.apache.hadoop.mapred.MapRunner}, when the Map 
+ * of {@link org.apache.hadoop.mapred.MapRunner}, when the Map
  * operation is not CPU bound in order to improve throughput.
  * <p>
  * Map implementations using this MapRunnable must be thread-safe.
